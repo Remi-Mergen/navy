@@ -21,7 +21,7 @@
     char *my_strncpy(char *dest, char *src, int n);
     void print_pid(int pid);
     int player_one(char *filepath);
-    int player_two(void);
+    int player_two(int pid, char *filepath);
     int which_player(int ac, char **av);
     int player_win(maps_t *map);
     void attack_player(maps_t *map);
